@@ -1,5 +1,97 @@
+html {
+  overflow-y: overlay;
+}
 body {
-  width: 100%;
+width: 100%;
   height: 100%;
   margin: 0;
+  padding: 0;
+  font-size: smaller;
+
+}
+header {
+  display: flex;
+  flex-direction: column;
+  float: center;
+  align-content: center;
+ padding-left: 30%; 
+  padding-right: 30%;
+}
+nav{
+  display: inline-flex;
+flex-direction: row;
+
+}
+a{
+  padding-left:10px;
+  padding-right:10px ;
+  background-color: burlywood;
+}
+#featured-property{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-left: 12%; 
+  padding-right: 39%;
+}
+figcaption{
+  justify-content: center;
+text-align: center;
+padding-left: 28%; 
+/* padding-right: 40%; */
+}
+p{
+  width:800px;
+justify-content: center;
+padding-left: 15%; 
+
+}
+#email{
+  padding-top: 5px;
+  margin-top:15px;
+  text-align: center;
+  float:bottom;
+  background-color: red;
+}
+#details{
+
+  display: flex;
+  justify-content:space-between;
+  width:100%; 
+   left: 0;
+  right:0;
+  bottom: 0;
+  background-color: red;
+  color: white;
+  text-align: center;
+  height: 20%;
+
+
+}
+#details div{
+  width:25%;
+  display: flex; 
+  justify-content: center;
+  text-align: justify;
+
+}
+#details div h3{
+  display: inline;
+  vertical-align: top;
+
+}
+div p a{
+  background-color: red;
+}
+#details div p{
+   background-color: red;
+   vertical-align: sub;
+}
+.contact{
+  width: 25%;
+height: auto;
+margin: 0px auto;
+text-align: left;
+padding-left: 10px;
+padding-right: 10px;
 }
